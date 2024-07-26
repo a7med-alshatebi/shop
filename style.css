@@ -637,6 +637,20 @@ footer .copyright{
     line-height: 25px;
 }
 
+/*about page header*/
+#page-header.about-header{
+    background-image: url("img/aboutimage.jpeg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
 
 /*start media query*/
 @media (max-width:799px) {
