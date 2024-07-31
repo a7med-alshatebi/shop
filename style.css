@@ -672,8 +672,82 @@ footer .copyright{
     border-radius: 20px;
 }
 
+/*conatct page*/
 
+#contact-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#contact-details{
+    width: 100%;
+}
+
+#contact-details .details span,
+#form-det form span{
+    font-size: 12px;
+}
+
+#contact-details .details h2,
+#form-det form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px  0;
+}
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#form-det form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-det form input,
+#form-det form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0; 
+}
+
+#form-det form button{
+    background-color: #088178;
+    color: #fff;
+    
+}
 
 
 /*start media query*/
@@ -836,6 +910,21 @@ footer .copyright{
 
     #about-head div{
         padding-left: 0px;
+    }
+
+    /*contact page*/
+
+    #contact-details{
+        flex-direction: column;
+    }
+
+    #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map{
+        width: 100%;
     }
 
 }
