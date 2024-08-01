@@ -749,6 +749,127 @@ footer .copyright{
     
 }
 
+/*cart page*/
+
+#page-header.about-header{
+    background-image: url("img/lastpage.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#page-header h2,
+#page-header p{
+    color: #554b4b;
+}
+
+#cart{
+    overflow-x: auto;
+}
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 78px;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead{
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    border-right: none;
+    font-weight: 700;    
+}
+
+#cart table thead th{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#cart-add .copon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#cart-add .copon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+
+#cart-add .copon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+#cart-add .copon button,
+#subtotal button{
+    background-color: #088178;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e0e0e0;
+    padding: 30px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal td{
+    width: 50%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    font-size: 13px;
+}
+
+
 
 /*start media query*/
 @media (max-width:799px) {
@@ -925,6 +1046,20 @@ footer .copyright{
 
     #contact-details .map{
         width: 100%;
+    }
+
+    /*cart page*/
+    #cart-add{
+        flex-direction: column;
+    }
+
+    #cart-add .copon{
+        width: 100%;
+    }
+
+    #subtotal{
+        width: 100%;
+        padding: 20px;
     }
 
 }
