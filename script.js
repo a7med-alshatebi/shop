@@ -1,4 +1,5 @@
 const bar =  document.getElementById('bar');
+const mob =  document.getElementById('mob');
 const nav = document.getElementById('navbar');
 const close = document.getElementById('close');
 
@@ -15,3 +16,5 @@ if (close){
         nav.classList.remove('active');
     })
 }
+
+

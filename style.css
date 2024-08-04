@@ -752,14 +752,14 @@ footer .copyright{
 /*cart page*/
 
 #page-header.about-header{
-    background-image: url("img/lastpage.jpg");
+    background-image: url("img/aboutpage.png");
     background-size: cover;
-    background-position: center;
+    background-position:top;
 }
 
 #page-header h2,
 #page-header p{
-    color: #554b4b;
+    color: #ffffff;
 }
 
 #cart{
