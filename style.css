@@ -80,7 +80,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: rgba(0, 0, 0, 0.77);
+    background: rgba(0, 0, 0, 0.935);
     box-shadow: 0 5px 15px rgba(220, 236, 238, 0.629);
     z-index: 999;
     position: sticky;
@@ -257,7 +257,7 @@ body{
 }
 
 #product1 .pro:hover{
-    box-shadow: 20px 20px 30px rgb(199, 219, 225);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.356);
 }
 
 #product1 .pro img{
@@ -906,7 +906,7 @@ footer .copyright{
         align-items: center;
     }
     #mobile i{
-        color: rgb(206, 195, 195);
+        color: rgba(255, 255, 255, 0.893);
         font-size: 24px;
         padding: 20px;
     }
@@ -916,7 +916,7 @@ footer .copyright{
         top: 40px;
         left: 30px;
         font-size: 24px;
-        color: rgb(206, 195, 195);
+        color: rgba(255, 255, 255, 0.893);
     }
     #lg-bag{
         display: none;
