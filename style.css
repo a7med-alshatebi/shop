@@ -80,12 +80,13 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background: rgba(0, 0, 0, 0.401);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    background: rgba(0, 0, 0, 0.77);
+    box-shadow: 0 5px 15px rgba(220, 236, 238, 0.629);
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
+
 }
 
 #navbar{
@@ -98,13 +99,14 @@ body{
     list-style: none;
     padding: 0 20px;
     position: relative;
+    
 }
 
 #navbar li a{
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #1a1a1a;
+    color: #dbc8c8;
     transition: 1s ease-in-out;
 }
 
@@ -116,7 +118,7 @@ body{
 #navbar li a.active::after,
 #navbar li a:hover::after{
     content: '';
-    width: 30%;
+    width: 25%;
     height: 2px;
     background: #088178;
     position: absolute;
@@ -124,6 +126,7 @@ body{
     left: 20px;
 
 }
+
 
 #mobile{
     display: none;
@@ -254,7 +257,7 @@ body{
 }
 
 #product1 .pro:hover{
-    box-shadow: 20px 20px 30px rgba(0,0,0,0.6);
+    box-shadow: 20px 20px 30px rgb(199, 219, 225);
 }
 
 #product1 .pro img{
@@ -886,13 +889,14 @@ footer .copyright{
         right: -300px;
         height: 100vh;
         width: 250px;
-        background-color: #E3E6F3;
-        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        background-color: rgba(0, 0, 0, 0.77);
+        box-shadow: 0 40px 60px rgba(220, 236, 238, 0.629);
         padding: 80px 0 0 10px; 
         transition: 0.3s;
     }
     #navbar.active{
         right: 0;
+        
     }
     #navbar li{
         margin-bottom: 25px;
@@ -902,7 +906,7 @@ footer .copyright{
         align-items: center;
     }
     #mobile i{
-        color: black;
+        color: rgb(206, 195, 195);
         font-size: 24px;
         padding: 20px;
     }
@@ -912,7 +916,7 @@ footer .copyright{
         top: 40px;
         left: 30px;
         font-size: 24px;
-        color: black;
+        color: rgb(206, 195, 195);
     }
     #lg-bag{
         display: none;
