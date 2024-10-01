@@ -6,6 +6,17 @@
     <title>saleto</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YkdD8V_2voGz-h7Ry",
+      });
+   })();
+</script>
 </head>
 <body>
     
@@ -71,19 +82,16 @@
     </section>
         
     <section id="form-det">
-        <form action="https://formsubmit.io/ahmedalshatibi22@gmail.com" method="POST">
+        <form action=" ">
             <span>LEAVE A MESSAGE</span>
             <h2>We love to hear from you</h2>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <input type="hidden" name="_next" value="https://saleto.netlify.app/shop.html">
-            <input type="text" placeholder="Subject">    
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <input type="text" id="subject" name="subject" placeholder="Subject">    
             <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button class="normal">Your Message</button>
+            <button type="submit" onclick="sendMail()">Send</button>
     </section>
     
-    
-
     <footer class="section-p1">
         <div class="col">
             <img class="logo" src="img/6b250f8ba63192f37e23a19173d4527a.jpg" width="70" alt="">
