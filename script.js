@@ -28,6 +28,6 @@ function sendMail(){
         message: document.getElementById('message').value,
 
     }
-    emailjs.send("service_q2lb6te","template_8jbfrkf");
+    emailjs.send("service_q2lb6te","template_8jbfrkf",parms).then(alert('Email Sent Successfully'));
 }
 
